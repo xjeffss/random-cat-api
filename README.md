@@ -6,7 +6,7 @@ Now that you've worked in APIs, learn how to comb through an API's documentation
 
 First, use the Cat API to display an image of a random cat every time the user clicks a button! You will add functionality to the Random Cat button that has been provided for you.
 
-Next, you will add a search feature to the form in the starter code. To utilize this API's search functionality, you will need to request and use an API key. The key will go in a fetch object called headers.
+Next, you will add a search feature to the form in the starter code. To utilize this API's search functionality, you will need to request and use an API key. The key will go in a fetch object called headers. Check out the [fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) to learn more about this!
 
 You will need to give your fetch function a second parameter called `headers`, which will be an object that takes the key:value pair `'x-api-key': 'INSERT YOUR API KEY HERE'`. It will look something like this:
 

@@ -28,7 +28,7 @@ repository.
 
 First, use `fetch()` to make a GET request to the Cat API and console log the response object.
 
-- Navigate to the [Cat API Documentation](https://api.thecatapi.com/v1/images/search) and read through the documentation.
+- Navigate to the [Cat API Documentation](https://docs.thecatapi.com/) and read through the documentation.
 - In `script.js`, use `fetch()` and the "Get a Random Kitty" URL to make a GET request and console log the response object.
 
 > How will you know if your request was successful?

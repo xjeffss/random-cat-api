@@ -81,11 +81,6 @@ Adding the API key allows you to utilize all that the Cat API has to offer!
 When a user enters the name of the category into the input field, a random cat
 from that category appears!
 
-## Plagiarism
-
-Take a moment to refamiliarize yourself with the
-[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
-Plagiarized work will not be accepted.
 
 ## [License](LICENSE)
 

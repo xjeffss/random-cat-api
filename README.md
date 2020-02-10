@@ -18,7 +18,7 @@ applications.
 2. Change into the new directory.
 3. Fulfill the listed requirements.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js). You are
+Starter code is available in [`lib/`](lib/). You are
 required to turn in your submission by making a pull request on the original
 repository.
 
@@ -26,10 +26,10 @@ repository.
 
 ### Part 1
 
-First, use `fetch()` to make a GET request to the Cat API and console log the response object.
+First, use `axios()` to make a GET request to the Cat API and console log the response object.
 
 - Navigate to the [Cat API Documentation](https://docs.thecatapi.com/) and read through the documentation.
-- In `script.js`, use `fetch()` and the "Get a Random Kitty" URL to make a GET request and console log the response object.
+- In `script.js`, use `axios()` and the "Get a Random Kitty" URL to make a GET request and console log the response object.
 
 > How will you know if your request was successful?
 
@@ -46,19 +46,21 @@ been provided for you.
 
 Finally, you will add a search feature to the form in the starter code. To utilize
 this API's search functionality, you will need to request and use an API key.
-The key will go in a fetch object called headers. Check out the
-[fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+The key will go in an `axios` object called headers. Check out the
+[axios documentation](https://github.com/axios/axios#request-config)
 to learn more about this!
 
-You will need to give your fetch function a second parameter called `headers`,
+You will need to give your axios function a second parameter called `headers`,
 which will be an object that takes the key:value pair
 `'x-api-key': 'INSERT YOUR API KEY HERE'`. It will look something like this:
 
 ```
-fetch('www.randomURL.com', {
-    headers: {
-        'x-api-key': 'INSERT YOUR API KEY HERE'
-    }
+axios({
+   url: 'www.randomURL.com',
+   method: 'GET',
+   headers: {
+      'x-api-key': 'INSERT YOUR API KEY HERE'
+   }
 })
 ```
 

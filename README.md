@@ -68,6 +68,9 @@ Adding the API key allows you to utilize all that the Cat API has to offer!
 
 - Go to the [Cat API web site](https://thecatapi.com/) and request an API key
    by clicking SIGN UP FOR FREE. The key will be emailed to you right away.
+
+   ![](https://i.imgur.com/xSbIMRj.png)
+   
 - In the email, click API DOCUMENTATION and read through it to learn how to use
    the Cat API to its fullest capacity.
 - Add functionality so that when a user enters a category's ID number into the

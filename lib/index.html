@@ -14,25 +14,29 @@
             <h1>Random Cat API</h1>
         </header>
         <main>
-            <button class="randomButton">Random Cats! Meow!</button>
-            <div class="randomCat"><img src="" class="randomCatImage"></div>
             <form>
-                <input type="text" class="input" placeholder="Category ID">
-                <button class="searchButton">Find Cats! Meow!</button>
+                <button id="randomButton">Random Cats! Meow!</button>
+                <h2>or</h2>
+                <div id="category-keys">
+                    <button id="searchButton">Find Cats! Meow!</button>
+                    <select name="category">
+                        <option value="">--Please choose a category--</option>
+                        <option value="1">Hats</option>
+                        <option value="2">Space</option>
+                        <option value="4">Sunglasses</option>
+                        <option value="5">Boxes</option>
+                        <option value="7">Ties</option>
+                        <option value="14">Sink</option>
+                        <option value="15">Clothes</option>
+                    </select>
+                </div>
             </form>
-            <div class="category-keys">
-                <!-- <h3>Categories</h3> -->
-                <ul>
-                    <li>1: Hats</li>
-                    <li>2: Space</li>
-                    <li>4: Sunglasses</li>
-                    <li>5: Boxes</li>
-                    <li>7: Ties</li>
-                    <li>14: Sinks</li>
-                    <li>15: Clothes</li>
-                </ul>
+            <div class="randomCat">
+                <img src="" id="randomCatImage">
             </div>
-            <div class="categoryCat"><img src="" class="categoryCatImage"></div>
+            <div id="categoryCat">
+                <img src="" id="categoryCatImage">
+            </div>
         </main>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="script.js"></script>

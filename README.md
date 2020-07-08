@@ -73,8 +73,7 @@ Adding the API key allows you to utilize all that the Cat API has to offer!
    
 - In the email, click API DOCUMENTATION and read through it to learn how to use
    the Cat API to its fullest capacity.
-- Add functionality so that when a user enters a category's ID number into the
-   input field, a random cat from that category appears!
+- Add functionality so that when a user select a category from the dropdown menu, a random cat from that category appears!
 
 ### Bonus
 
